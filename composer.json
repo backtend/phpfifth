@@ -1,0 +1,35 @@
+{
+  "name": "backtend/phpfifth",
+  "description": "phpenv phplib phputil for php 5",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "backtend",
+      "email": "backtend@gmail.com"
+    }
+  ],
+  "keywords": [
+    "php 5",
+    "phputil",
+    "phpenv",
+    "phplib"
+  ],
+  "require": {
+    "php": "^5.3 || ^7.0 || ^8.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "backtend\\phpfifth\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "backtend\\phpfifth\\": "tests/"
+    }
+  }
+}
